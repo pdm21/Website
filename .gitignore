@@ -1,5 +1,8 @@
-# Ignore PDF files
+# Ignore all PDF files
 *.pdf
+
+# Allow specific PDF file
+!PDMResume2024.pdf
 
 # Ignore sensitive PHP files
 mail.php
@@ -9,3 +12,4 @@ composer-setup.php
 
 # Ignore the vendor directory
 /vendor/
+
