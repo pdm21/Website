@@ -1,0 +1,35 @@
+
+p {
+    color: orange;
+    background-color: slategray;
+    font-size: 20px; /* px = pixels */
+    text-decoration: underline; /* could do: none, line-through */
+    font-family: arial;
+    text-align: center; /* left, right also work */
+}
+p {
+    color: slategray;
+    text-align: left;
+    line-height: 30px; /* line spacing */
+    letter-spacing: 3px; /* space between each letter */
+    column-count: 3; /* text can be divided into columns */
+    column-gap: 3px; /* space between each column */
+}
+p {
+    /*
+    border-width: 4px;
+    border-style: solid;
+    border-color: lightblue;
+    border-bottom: 4px solid lightblue;
+    */
+    border: 4px solid lightblue; /* can do different border for top, bottom, R, L */
+}
+p {
+    list-style-type: none;
+    text-shadow: 2px 2px #E9E9E9;
+}
+p {
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}

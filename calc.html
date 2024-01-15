@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="calcstyles.css">
+</head>
+<body>
+    <!-- Building -->
+    <div class="proj-title">
+        <h1>Calculator App - Pandelis Margaronis</h1>
+    </div>
+    <!-- Building the calculator -->
+    <div class="calculator">
+        <input class="displayboard" type="text" id="display" value="0" readonly>
+        <br><br>
+        <button onclick="clearDisplay()">AC</button>
+        <button class="sign" onclick="toggleSign()">+/-</button>
+        <button class="percent" onclick="percent()">%</button>
+        <button onclick="appendToDisplay('/')">÷</button>
+        <br>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button class="mult-sign" onclick="appendToDisplay('*')">X</button>
+        <br>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')">–</button>
+        <br>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <br>
+        <button class="zero-button" onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="calculate()">=</button>
+    </div>
+
+<script src="evalscript.js"></script>
+
+<!-- Return to Home Page -->
+<button class="return-home" onclick="location.href = 'projects.html'">All Projects</button>
+
+</body>
+</html>

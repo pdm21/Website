@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Divs */
+/* div {
+    margin-left: 10px;
+} */
+
+/* The navigation bar */
+.navbar {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Distribute space between items */
+    background-color: #333;
+    padding: 10px 20px; /* Add some padding */
+}
+
+/* Style the "Home" link to be aligned to the left */
+.navbar a.left {
+    order: -1; /* This will make this item appear first */
+    margin-right: auto; /* Push the other links to the right */
+}
+
+/* Style the other links to be aligned to the right */
+.navbar a {
+    color: #f2f2f2; /* Text color */
+    padding: 14px 16px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    font-size: 17px; /* Font size */
+}
+
+/* Style the links on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Add a background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+
+/* Initially hide FDA work accomplishments */
+#FDA {
+    display: none;
+}
+
+/* Initially hide DXC work accomplishments */
+#DXC {
+    display: none;
+}
+
+/* Adjust styling for list items */
+ul, ol {
+    list-style: circle; /* Remove default list styles */
+    color: black;
+}
+
+li {
+    margin-left: 30px; /* Add indentation to list items */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #828282;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Show/Hide Div</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button onclick="toggleDiv()">Toggle Div</button>
+
+<div id="myDiv">
+  <!-- Content you want to display/hide goes here -->
+  This is the content of the div.
+</div>
+
+<script>
+  // JavaScript code to toggle the div
+  function toggleDiv() {
+    var div = document.getElementById("myDiv");
+    
+    // Toggle the display property of the div
+    if (div.style.display === "none" || div.style.display === "") {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+</script>
+
+</body>
+</html>
+
+
+

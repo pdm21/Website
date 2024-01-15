@@ -1,0 +1,54 @@
+body, html {
+    height: 100%; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+.proj-title {
+    margin-bottom: -100px;
+}
+
+.calculator {
+    width: 252px; 
+    margin: auto; 
+    border: 5px solid blue;
+}
+
+button {
+    width: 50px; 
+    height: 50px; 
+    margin: 5px; 
+    font-size: 18px; 
+}
+
+/* Styling the read only text box displaying characters in calculation */
+.displayboard {
+    width: 223px;
+    text-align: right; 
+    margin-bottom: -10px; 
+    padding: 13px; 
+    font-size: 40px; 
+}
+
+.sign, .percent, .mult-sign {
+    width: 50px; 
+    height: 50px; 
+    font-size: 16px; 
+}
+
+/* make the zero button twice as big to match the size seen in the iphone calc */
+.zero-button {
+    width: 114px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.return-home {
+    width: 110px; 
+    height: 50px; 
+    margin: 5px; 
+    font-size: 18px; 
+}

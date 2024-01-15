@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title> Pandelis Margaronis </title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body> 
+    <div class="navbar">
+        <a href="coursework.html">Coursework</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="home.html" class="left">Home</a>
+    </div>
+    
+    <div id="home">
+        <!-- Welcome Message -->
+        <h1 id="Welcome"> Welcome! My name is Pandelis Margaronis.
+            <style>
+                #Welcome
+                {
+                    margin-left: 0px;
+                }
+            </style>
+
+        </h1>
+        <br>
+        <!-- Introductory Statements -->
+        <div id="introduction">
+            <p id="About-Me">
+                <style>
+                    #About-Me
+                    {
+                        margin-left: 20px;
+                    }
+                </style>
+                I am student-athlete at <a href="https://www.hamilton.edu/">Hamilton College</a>, where I am a junior studying computer science and mathematics. I have extensive experience in a wide array of programming languages including Python, Java and C++, as well as a solid understanding of Object Oriented Programming, Data Structures, Algorithms, and Assembly Language. Further, I have taken a variety of math courses that supplement my computer science education.
+                <br> 
+                <br>
+                I have also been the <a href="https://athletics.hamilton.edu/sports/mens-soccer/roster/pandelis-margaronis/6922">captain</a> of the varsity men's soccer team since the start of my sophomore year.
+                <br>
+                <br>
+                When I am not writing code, I am playing sports, or being involved on campus in some way. I am a member of the AppDev Team at Hamilton, as well as a student assistant in the Fitness and Recreation Centers. Further, I am an RA, and the Founder of Hamilton Sports Give Back, an organization I am working on that will facilitate the donation of sports gear and equipment by Hamilton student-athletes to the youth in the local community.
+            </p>
+        </div>
+        <!-- Work Experience -->
+        <div id="Work-Experience">
+            <style>
+                #Work-Experience
+                {
+                    margin-left: 0px;
+                }
+            </style>
+            
+            <br>
+            <h3>Work Experience:</h3>
+            <!-- FDA, Summer 2022' -->
+            <br>
+            <div id="FDA-BPS">
+                <style>
+                    #FDA-BPS
+                    {
+                        margin-left: 20px;
+                    }
+                </style>
+                <p>
+                    <!-- left side text, right side images, add button to "view accomplishments" that displays resume info -->
+                    In Summer ‘22, as a Business Process Automation Intern for the US Food and Drug Administration (FDA), I independently developed Microsoft Power Apps to automate business processes within the office I worked under. I developed my skills with the Microsoft Power Platform, Power Automate, application design, and UX/UI. 
+                </p>
+                <button onclick="FDADiv()">Work Accomplishments</button>
+                <!-- JavaScript code to Show / Hide Work Accomplishments -->
+                <script>
+                    function FDADiv() {
+                      var fda_div = document.getElementById("FDA");
+                      
+                      // Toggle the display property of the div
+                      if (fda_div.style.display === "none" || fda_div.style.display === "") {
+                        fda_div.style.display = "block";
+                      } else {
+                        fda_div.style.display = "none";
+                      }
+                    }
+                </script>
+                <div id="FDA">
+                    <!-- Work Accomplishments -->
+                    <ul>
+                        <li>Independently developed 3 power apps to automate business processes within the office, utilizing Microsoft Power Apps and Power Automate software, as well as HTML and CSS</li>
+                        <li>Achieved a 5x increase in task execution efficiency</li>
+                        <li>Apps were presented to the team and approved, being deployed within the office for use</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- DXC, Summer 2023' -->
+            <div id="DXC-Technology">
+                    <!-- left side text, right side images, add button to "view accomplishments" that displays resume info -->
+                    <p id="DXC-Exp">
+                        <style>
+                            #DXC-Technology
+                            {
+                                margin-left: 20px;
+                            }
+                        </style>
+                        In Summer '23, as a Technical Intern for Insurance Software and BPS at DXC Technology, I developed my skills with design thinking and Agile methodologies, cloud computing services such as AWS and Google Cloud, and RDBMS through PostgreSQL. I am actively pursuing AWS certification.
+                    </p>
+                    <button onclick="DXCDiv()">Work Accomplishments</button>
+                    <!-- JavaScript code to Show / Hide Work Accomplishments -->
+                    <script>
+                        function DXCDiv() {
+                          var dxc_div = document.getElementById("DXC");
+                          
+                          // Toggle the display property of the div
+                          if (dxc_div.style.display === "none" || dxc_div.style.display === "") {
+                            dxc_div.style.display = "block";
+                          } else {
+                            dxc_div.style.display = "none";
+                          }
+                        }
+                    </script>
+                    <div id="DXC">
+                        <!-- Work Accomplishments -->
+                        <ul>
+                            <li>Created and managed a PostgreSQL database with over 30 tables with my team, establishing connections over EC2 and RDS</li>
+                            <li>Developed upwards of 20 Python scripts for different tasks ranging from data import and export to data cleansing and testing</li>
+                            <li>Utilized batch scripts and PgAgent Jobs to fully automate data cleansing, import, export, and testing processes handling files of up to 10,000,000 data records at a time</li>
+                            <li>Utilized Agile concepts to foster effective collaboration, working in a fast-paced environment</li>
+                            <li>Modernized and fully automated the life insurance policy conversion process, creating a scalable and adaptable solution which significantly optimizes costs and reduces process duration</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div>
+        <h3>My resume can be found by clicking <a href="PDMResume2024.pdf">here.</a></h3>
+    </div>
+
+
+
+</body>
+</html>

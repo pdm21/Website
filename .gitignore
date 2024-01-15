@@ -1,0 +1,11 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore sensitive PHP files
+mail.php
+composer.json
+composer.lock
+composer-setup.php
+
+# Ignore the vendor directory
+/vendor/
