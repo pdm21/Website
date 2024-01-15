@@ -4,4 +4,4 @@ To create this website, I used HTML, CSS, JavaScript, and PHP. The website is de
 
 The website includes various pages that provide information on my background and interests, my past internships and associated accomplishments, relevant coursework, and personal projects. Further, visitors are welcome to navigate to the contact page and fill out the form, which will send me an email with its contents upon submission.
 
-- Pandelis
+The website is always under construction, as I look to develop new skills and improve upon my previous ones.
